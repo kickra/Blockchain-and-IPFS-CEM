@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?85e86e70bcf0c2e3d78db80fb8a155f5") format("truetype"),
+url("./flaticon.woff?85e86e70bcf0c2e3d78db80fb8a155f5") format("woff"),
+url("./flaticon.woff2?85e86e70bcf0c2e3d78db80fb8a155f5") format("woff2"),
+url("./flaticon.eot?85e86e70bcf0c2e3d78db80fb8a155f5#iefix") format("embedded-opentype"),
+url("./flaticon.svg?85e86e70bcf0c2e3d78db80fb8a155f5#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, 
+i[class*=" flaticon-"]:before,
+span[class^="flaticon-"]:before, 
+span[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-phone-call:before {
+    content: "\f101";
+}
+.flaticon-mail:before {
+    content: "\f102";
+}
+.flaticon-location:before {
+    content: "\f103";
+}
+.flaticon-award:before {
+    content: "\f104";
+}
+.flaticon-rating:before {
+    content: "\f105";
+}
+.flaticon-team:before {
+    content: "\f106";
+}
+.flaticon-right-quote:before {
+    content: "\f107";
+}
+.flaticon-microscope:before {
+    content: "\f108";
+}
+.flaticon-flask:before {
+    content: "\f109";
+}
+.flaticon-research:before {
+    content: "\f10a";
+}
+.flaticon-laboratory:before {
+    content: "\f10b";
+}
+.flaticon-laboratory-1:before {
+    content: "\f10c";
+}
+.flaticon-biochemistry:before {
+    content: "\f10d";
+}
+.flaticon-test-tube:before {
+    content: "\f10e";
+}
+.flaticon-test-tubes:before {
+    content: "\f10f";
+}
+.flaticon-test:before {
+    content: "\f110";
+}
+.flaticon-experiment:before {
+    content: "\f111";
+}
+.flaticon-lab:before {
+    content: "\f112";
+}
+.flaticon-scientist:before {
+    content: "\f113";
+}
+.flaticon-lab-coat:before {
+    content: "\f114";
+}
+.flaticon-flask-1:before {
+    content: "\f115";
+}

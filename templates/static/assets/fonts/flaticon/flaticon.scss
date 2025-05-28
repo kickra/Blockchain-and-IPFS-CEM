@@ -1,0 +1,109 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?85e86e70bcf0c2e3d78db80fb8a155f5") format("truetype"),
+url("./flaticon.woff?85e86e70bcf0c2e3d78db80fb8a155f5") format("woff"),
+url("./flaticon.woff2?85e86e70bcf0c2e3d78db80fb8a155f5") format("woff2"),
+url("./flaticon.eot?85e86e70bcf0c2e3d78db80fb8a155f5#iefix") format("embedded-opentype"),
+url("./flaticon.svg?85e86e70bcf0c2e3d78db80fb8a155f5#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "phone-call": "\f101",
+    "mail": "\f102",
+    "location": "\f103",
+    "award": "\f104",
+    "rating": "\f105",
+    "team": "\f106",
+    "right-quote": "\f107",
+    "microscope": "\f108",
+    "flask": "\f109",
+    "research": "\f10a",
+    "laboratory": "\f10b",
+    "laboratory-1": "\f10c",
+    "biochemistry": "\f10d",
+    "test-tube": "\f10e",
+    "test-tubes": "\f10f",
+    "test": "\f110",
+    "experiment": "\f111",
+    "lab": "\f112",
+    "scientist": "\f113",
+    "lab-coat": "\f114",
+    "flask-1": "\f115",
+);
+
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-award:before {
+    content: map-get($flaticon-map, "award");
+}
+.flaticon-rating:before {
+    content: map-get($flaticon-map, "rating");
+}
+.flaticon-team:before {
+    content: map-get($flaticon-map, "team");
+}
+.flaticon-right-quote:before {
+    content: map-get($flaticon-map, "right-quote");
+}
+.flaticon-microscope:before {
+    content: map-get($flaticon-map, "microscope");
+}
+.flaticon-flask:before {
+    content: map-get($flaticon-map, "flask");
+}
+.flaticon-research:before {
+    content: map-get($flaticon-map, "research");
+}
+.flaticon-laboratory:before {
+    content: map-get($flaticon-map, "laboratory");
+}
+.flaticon-laboratory-1:before {
+    content: map-get($flaticon-map, "laboratory-1");
+}
+.flaticon-biochemistry:before {
+    content: map-get($flaticon-map, "biochemistry");
+}
+.flaticon-test-tube:before {
+    content: map-get($flaticon-map, "test-tube");
+}
+.flaticon-test-tubes:before {
+    content: map-get($flaticon-map, "test-tubes");
+}
+.flaticon-test:before {
+    content: map-get($flaticon-map, "test");
+}
+.flaticon-experiment:before {
+    content: map-get($flaticon-map, "experiment");
+}
+.flaticon-lab:before {
+    content: map-get($flaticon-map, "lab");
+}
+.flaticon-scientist:before {
+    content: map-get($flaticon-map, "scientist");
+}
+.flaticon-lab-coat:before {
+    content: map-get($flaticon-map, "lab-coat");
+}
+.flaticon-flask-1:before {
+    content: map-get($flaticon-map, "flask-1");
+}
